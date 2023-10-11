@@ -1,0 +1,52 @@
+div.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "header header"
+        "spillelinje tekst1"
+        "spilleline2 tekst2"
+        ". footer"
+    ;
+}
+
+
+
+div.header {
+    grid-area: header;
+}
+
+div.spillelinje {
+    grid-area: spillelinje;
+}
+
+div.spillelinje2 {
+    grid-area: spillelinje2;
+}
+
+.tekst1 {
+    grid-area: tekst1;
+}
+
+.tekst2 {
+    grid-area: tekst2;
+}
+
+div.footer {
+    grid-area: footer;
+}
+
+@media screen and (max-width: 600px) {
+    div.grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "header"
+            "spillelinje"
+            "tekst1"
+            "spilleline2"
+            "tekst2"
+            "footer"
+        ;
+    }
+}

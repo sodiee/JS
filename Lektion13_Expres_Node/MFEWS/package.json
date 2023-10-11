@@ -1,0 +1,16 @@
+{
+  "name": "myawesomeproject",
+  "version": "0.0.1",
+  "description": "viser mine expres evner",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "msc",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "figlet": "^1.6.0",
+    "morgan": "^1.10.0"
+  }
+}

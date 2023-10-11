@@ -1,0 +1,30 @@
+table {
+	background-image: url("https://blog-images-1.pharmeasy.in/2020/08/28152823/shutterstock_583745164-1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+th,
+td {
+	border: 1px solid pink;
+	padding: 8px;
+	text-align: left;
+}
+
+th {
+	background-color: red;
+	color: black;
+	font-weight: bold;
+}
+
+
+tr:hover {
+	background-color: greenyellow;
+}

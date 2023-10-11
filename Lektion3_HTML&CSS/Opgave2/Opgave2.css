@@ -1,0 +1,27 @@
+h1 {
+    color: blue;
+}
+
+table {
+    border-color: blue;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+tr {
+    border-style: solid;
+    border-color: blue;
+    border: 2;
+}
+
+td {
+    border-style: solid;
+    border-color: blue;
+    border: 2;
+}
+
+th {
+    border-style: solid;
+    border-color: blue;
+    border: 2;
+}
