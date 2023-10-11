@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "name": "lektion13_expres_node",
+  "version": "1.0.0",
+  "main": "Livecode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

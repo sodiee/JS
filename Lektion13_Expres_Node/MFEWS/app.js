@@ -4,7 +4,7 @@ const morgan = require('morgan')
 const app = express()
 
 app.use(morgan('tiny'))
-
+console.log("hader mikkel")
 app.use((request, response, next) => {
     console.log("SÅ FOR F..... NU SKAL VI TIL DEN IGEN")
     next();
